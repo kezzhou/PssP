@@ -7,23 +7,11 @@ In this repository, our patient self service portal becomes more fleshed out wit
 
 ## The four components found in this repository are:
 
-1. app.py (python script) - through sqlalchemy and pymysql, we can foster a connection to Azure Database for MySQL Server and pull table queries into classes for respective htmls, as well as create the necessary endpoints for proper launching and access of the site.
+1. app.py (python script) - our python script for launching and maintaining our app.
 
-2. templates (folder) - this folder houses our html files:
-- about.html
-- base.html
-- header.html
-- landing.html
-- patient_all.html
-- patient_details.html
-- signin.html
+2. templates (folder) - this folder houses our html files.
 
-
-3. static (folder) - this folder houses our css files:
-- bootstrap.css
-- dashboard.css
-- landing.css
-- signin.css
+3. static (folder) - this folder houses our css files.
 
 4. images (folder) - this folder houses image files picturing the following:
 - The /patients list page with dummy data and the three newly added fields
